@@ -1,0 +1,7 @@
+mongoimport --db dbName --collection collectionName <fileName.json
+mongoimport --db foo --collection myCollections < /Users/file.json
+
+mongoimport --db mydb --collection music_event --file /home/cgao/Travail/Projet_GMIN332/assets/Event_Marseille.json
+
+Start the server with bin/neo4j start from a terminal.
+Open http://localhost:7474 for the Web UI.

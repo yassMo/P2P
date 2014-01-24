@@ -1,0 +1,98 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:database="file:///home/cgao/Travail/Projet_GMIN332/assets/mapping_annotation.n3"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:findevent="http://www.findevent.fr/findevent#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:map="file:///home/cgao/Travail/Projet_GMIN332/assets/fm.n3#" > 
+  <rdf:Description rdf:about="http://www.findevent.fr/findevent#user_email">
+    <rdfs:label>user email</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.findevent.fr/findevent#user_username">
+    <rdfs:label>user username</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.findevent.fr/findevent#event_name">
+    <rdfs:label>event name</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.findevent.fr/findevent#2">
+    <findevent:event_name>7449434</findevent:event_name>
+    <findevent:event_location>Paris</findevent:event_location>
+    <rdfs:label>event #2</rdfs:label>
+    <rdf:type rdf:resource="http://www.findevent.fr/findevent#event"/>
+    <findevent:user_email>yassine@gmail.com</findevent:user_email>
+    <rdfs:label>event #2</rdfs:label>
+    <findevent:user_username>yassine</findevent:user_username>
+    <rdf:type rdf:resource="http://www.findevent.fr/findevent#user"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.findevent.fr/findevent#annotation_ref_event">
+    <rdfs:label>annotation ref event</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.findevent.fr/findevent#event_location">
+    <rdfs:label>event location</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.findevent.fr/findevent#annotation_date">
+    <rdfs:label>annotation date</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.findevent.fr/findevent#9">
+    <findevent:annotation_ref_user rdf:resource="http://www.findevent.fr/findevent#1"/>
+    <findevent:annotation_ref_event rdf:resource="http://www.findevent.fr/findevent#2"/>
+    <findevent:annotation_date>2014-01-01</findevent:annotation_date>
+    <rdfs:label>event #9</rdfs:label>
+    <findevent:annotation_comment>good3</findevent:annotation_comment>
+    <rdf:type rdf:resource="http://www.findevent.fr/findevent#annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.findevent.fr/findevent#1">
+    <findevent:annotation_ref_user rdf:resource="http://www.findevent.fr/findevent#1"/>
+    <findevent:annotation_ref_event rdf:resource="http://www.findevent.fr/findevent#1"/>
+    <findevent:event_name>7433536</findevent:event_name>
+    <findevent:event_location>Paris</findevent:event_location>
+    <rdfs:label>event #1</rdfs:label>
+    <rdf:type rdf:resource="http://www.findevent.fr/findevent#event"/>
+    <findevent:annotation_date>2014-01-01</findevent:annotation_date>
+    <rdfs:label>event #1</rdfs:label>
+    <findevent:annotation_comment>good1</findevent:annotation_comment>
+    <rdf:type rdf:resource="http://www.findevent.fr/findevent#annotation"/>
+    <findevent:user_email>gao@gmail.com</findevent:user_email>
+    <rdfs:label>event #1</rdfs:label>
+    <findevent:user_username>gao</findevent:user_username>
+    <rdf:type rdf:resource="http://www.findevent.fr/findevent#user"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.findevent.fr/findevent#event">
+    <rdfs:label>event</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.findevent.fr/findevent#8">
+    <findevent:annotation_ref_user rdf:resource="http://www.findevent.fr/findevent#2"/>
+    <findevent:annotation_ref_event rdf:resource="http://www.findevent.fr/findevent#1"/>
+    <findevent:annotation_date>2014-01-01</findevent:annotation_date>
+    <rdfs:label>event #8</rdfs:label>
+    <findevent:annotation_comment>good2</findevent:annotation_comment>
+    <rdf:type rdf:resource="http://www.findevent.fr/findevent#annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.findevent.fr/findevent#annotation_comment">
+    <rdfs:label>annotation comment</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.findevent.fr/findevent#annotation">
+    <rdfs:label>annotation</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.findevent.fr/findevent#annotation_ref_user">
+    <rdfs:label>annotation ref user</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.findevent.fr/findevent#user">
+    <rdfs:label>user</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+</rdf:RDF>
