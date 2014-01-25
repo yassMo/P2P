@@ -1,0 +1,1467 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:mgoevent="http://www.findevent.fr#">
+  <mgoevent:event rdf:about="http://www.findevent.fr#7522921">
+    <mgoevent:participant>Stéphane Grappelli</mgoevent:participant>
+    <mgoevent:participant>FLORENCE FOURCADE</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-02-01T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7522921</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7176756">
+    <mgoevent:participant>Maxime Jullia</mgoevent:participant>
+    <mgoevent:participant>Jean Chaize</mgoevent:participant>
+    <mgoevent:participant>Juliette Augert</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T19:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7176756</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7449428">
+    <mgoevent:participant>Vioda</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T23:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7449428</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7482750">
+    <mgoevent:participant>Offen</mgoevent:participant>
+    <mgoevent:participant>Tiff</mgoevent:participant>
+    <mgoevent:participant>DANDY JACK live</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T23:59:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7482750</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7311980">
+    <mgoevent:participant>Cheaper Shepherd.</mgoevent:participant>
+    <mgoevent:participant>Florian Gauthier</mgoevent:participant>
+    <mgoevent:participant>DudMode</mgoevent:participant>
+    <mgoevent:participant>Klangfarbe Antifeind</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T22:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7311980</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7335952">
+    <mgoevent:participant>Léo Aniaba</mgoevent:participant>
+    <mgoevent:participant>Gildas Boclé</mgoevent:participant>
+    <mgoevent:participant>EDOUARD BINEAU</mgoevent:participant>
+    <mgoevent:participant>Simon Bernier</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7335952</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7508105">
+    <mgoevent:participant>Scott of the Antarctic</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7508105</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7180591">
+    <mgoevent:participant>Jell-oO</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T21:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7180591</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7257263">
+    <mgoevent:participant>Marina P</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7257263</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7433536">
+    <mgoevent:participant>MC2</mgoevent:participant>
+    <mgoevent:participant>The Toxic Avenger</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7433536</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7176755">
+    <mgoevent:participant>Maxime Jullia</mgoevent:participant>
+    <mgoevent:participant>Jean Chaize</mgoevent:participant>
+    <mgoevent:participant>Juliette Augert</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T19:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7176755</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7486745">
+    <mgoevent:participant>FESTIVAL LVE</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T21:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7486745</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6815491">
+    <mgoevent:participant>EZZA</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6815491</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7334735">
+    <mgoevent:participant>Jane For Tea</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-30T12:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7334735</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7406710">
+    <mgoevent:participant>ANDY MYERS</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T23:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7406710</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7391274">
+    <mgoevent:participant>Michel Pastre</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T21:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7391274</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7536658">
+    <mgoevent:participant>Bosco Delrey</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7536658</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6907937">
+    <mgoevent:participant>Céline Bonacina (Official page)</mgoevent:participant>
+    <mgoevent:city>Vitrolles</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6907937</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7115483">
+    <mgoevent:participant>BB Brunes</mgoevent:participant>
+    <mgoevent:city>Muret</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7115483</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7448060">
+    <mgoevent:participant>Da Silva</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-28T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7448060</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7525446">
+    <mgoevent:participant>Nue sur le bitume</mgoevent:participant>
+    <mgoevent:city>Bourgoin-Jallieu</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7525446</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6715978">
+    <mgoevent:participant>Messmer</mgoevent:participant>
+    <mgoevent:city>Sanary</mgoevent:city>
+    <mgoevent:datetime>2014-01-29T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6715978</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7587261">
+    <mgoevent:participant>Temenik Electric</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7587261</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7582249">
+    <mgoevent:participant>Gülay Hacer Toruk</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7582249</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7575867">
+    <mgoevent:participant>DEMI-PORTION</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7575867</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6934352">
+    <mgoevent:participant>THE GLENN MILLER MEMORIAL ORCHESTRA</mgoevent:participant>
+    <mgoevent:city>Sanary Sur Mer</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6934352</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7452122">
+    <mgoevent:participant>SCOTT OF THE ANTARTIC</mgoevent:participant>
+    <mgoevent:participant>Michael Wookey</mgoevent:participant>
+    <mgoevent:participant>Chucky Nylon</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7452122</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6946373">
+    <mgoevent:participant>Nazca</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>6946373</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7025345">
+    <mgoevent:participant>Traversée de la scène à la rage</mgoevent:participant>
+    <mgoevent:city>Gleizé</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7025345</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7527343">
+    <mgoevent:participant>Lilly Wood &amp; The Prick</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7527343</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7500771">
+    <mgoevent:participant>Nicolas Spielmann</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7500771</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7504419">
+    <mgoevent:participant>Wsk</mgoevent:participant>
+    <mgoevent:participant>Bodhi</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7504419</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7390372">
+    <mgoevent:participant>Enlarge Your Monster</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7390372</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7519132">
+    <mgoevent:participant>Hyperarty</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7519132</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7176757">
+    <mgoevent:participant>Maxime Jullia</mgoevent:participant>
+    <mgoevent:participant>Jean Chaize</mgoevent:participant>
+    <mgoevent:participant>Juliette Augert</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7176757</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7575866">
+    <mgoevent:participant>Agnès Vesterman</mgoevent:participant>
+    <mgoevent:participant>Sylvain Lemêtre</mgoevent:participant>
+    <mgoevent:participant>Garth Knox</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7575866</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7586485">
+    <mgoevent:participant>xa</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7586485</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7517393">
+    <mgoevent:participant>Glorious</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7517393</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7458530">
+    <mgoevent:participant>Bijan Chemirani</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7458530</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7564338">
+    <mgoevent:participant>Phil Wiggins</mgoevent:participant>
+    <mgoevent:participant>George Kilby Jr</mgoevent:participant>
+    <mgoevent:city>Chatenay Malabry</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7564338</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7125937">
+    <mgoevent:participant>DANDY FREAKS</mgoevent:participant>
+    <mgoevent:city>St Etienne</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7125937</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7488529">
+    <mgoevent:participant>Si On Allait Au RestO ?</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T21:15:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7488529</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7374281">
+    <mgoevent:participant>Tit For Tat</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7374281</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7558057">
+    <mgoevent:participant>Anteprima Productions</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7558057</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6787029">
+    <mgoevent:participant>HUMANOPHONES</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>6787029</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7360381">
+    <mgoevent:participant>SKS DJ</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-02-01T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7360381</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7457501">
+    <mgoevent:participant>Mady Keita</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-02-03T09:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7457501</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7157637">
+    <mgoevent:participant>Amel Bent</mgoevent:participant>
+    <mgoevent:city>Ramonville</mgoevent:city>
+    <mgoevent:datetime>2014-02-02T18:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7157637</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7449434">
+    <mgoevent:participant>Superpoze</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T19:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7449434</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7177461">
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:participant>Osmik</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7177461</mgoevent:eventId>
+    <mgoevent:participant>Nout_Heretik</mgoevent:participant>
+    <mgoevent:participant>Mat Weaselbusters</mgoevent:participant>
+    <mgoevent:participant>The Speed Freak</mgoevent:participant>
+    <mgoevent:participant>Radium</mgoevent:participant>
+    <mgoevent:participant>The Sickest Squad</mgoevent:participant>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6567502">
+    <mgoevent:participant>35e FESTIVAL MONDIAL DU CIRQUE DE DEMAIN</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>6567502</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7549836">
+    <mgoevent:participant>Baghera</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7549836</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7380155">
+    <mgoevent:participant>Talisco</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7380155</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7238113">
+    <mgoevent:participant>KorgBrain</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-02-01T12:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7238113</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6614645">
+    <mgoevent:participant>Robben Ford</mgoevent:participant>
+    <mgoevent:city>BruguiÈres</mgoevent:city>
+    <mgoevent:datetime>2014-02-01T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6614645</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7518341">
+    <mgoevent:participant>KONGFUZI BOOKING</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7518341</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7586360">
+    <mgoevent:participant>Les Charentaises De Luxe</mgoevent:participant>
+    <mgoevent:city>Ecully</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T10:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7586360</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7028734">
+    <mgoevent:participant>Jur</mgoevent:participant>
+    <mgoevent:city>Cugnaux</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7028734</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7334739">
+    <mgoevent:participant>Jane For Tea</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-02-01T16:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7334739</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7527172">
+    <mgoevent:participant>Miss Leïa</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-02-01T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7527172</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7456567">
+    <mgoevent:participant>Arainbow</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7456567</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7571271">
+    <mgoevent:participant>Les Georges</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7571271</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7556743">
+    <mgoevent:participant>LES FRERES CASQUETTE</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-02-02T14:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7556743</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6868593">
+    <mgoevent:participant>Didier Wampas</mgoevent:participant>
+    <mgoevent:city>Saint Etienne</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6868593</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7579915">
+    <mgoevent:participant>Chris Liebing</mgoevent:participant>
+    <mgoevent:participant>DJ Cold</mgoevent:participant>
+    <mgoevent:city>Ramonville-Saint-Agne</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T23:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7579915</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7384686">
+    <mgoevent:participant>Hypnotic Brass Band</mgoevent:participant>
+    <mgoevent:participant>Hypnotic Brass Ensemble</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7384686</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7234749">
+    <mgoevent:participant>DUB-4</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7234749</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7448030">
+    <mgoevent:participant>Asco</mgoevent:participant>
+    <mgoevent:participant>Sawgood</mgoevent:participant>
+    <mgoevent:participant>ANORAAK</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T23:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7448030</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6625265">
+    <mgoevent:participant>Denis Marechal | Officiel</mgoevent:participant>
+    <mgoevent:city>Saint-Étienne</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6625265</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7448007">
+    <mgoevent:participant>Mr Zerolex</mgoevent:participant>
+    <mgoevent:participant>Animales</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T19:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7448007</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6502720">
+    <mgoevent:participant>Carla Bruni</mgoevent:participant>
+    <mgoevent:participant>Arachnée-Concerts Lyon</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6502720</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7582078">
+    <mgoevent:participant>De Clary</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T23:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7582078</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7426074">
+    <mgoevent:participant>Zerolex</mgoevent:participant>
+    <mgoevent:participant>Flako</mgoevent:participant>
+    <mgoevent:participant>Raffertie</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T19:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7426074</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7413391">
+    <mgoevent:participant>Donald Kontomanou</mgoevent:participant>
+    <mgoevent:eventId>7413391</mgoevent:eventId>
+    <mgoevent:participant>Eric Dervieu</mgoevent:participant>
+    <mgoevent:participant>René Urtreger</mgoevent:participant>
+    <mgoevent:participant>René Urtreger Trio</mgoevent:participant>
+    <mgoevent:participant>Eric Lelann Quartet</mgoevent:participant>
+    <mgoevent:participant>Yves Torchinsky</mgoevent:participant>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:participant>Eric Lelann</mgoevent:participant>
+    <mgoevent:participant>Vincent Bourgeyx</mgoevent:participant>
+    <mgoevent:participant>Sylvain Romano</mgoevent:participant>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7301617">
+    <mgoevent:participant>Grand Corps Malade</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7301617</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7462104">
+    <mgoevent:participant>Martial Solal</mgoevent:participant>
+    <mgoevent:participant>Bernard Lubat</mgoevent:participant>
+    <mgoevent:city>Vincennes</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7462104</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7579968">
+    <mgoevent:participant>Dj Nostromo</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-02-01T22:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7579968</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7556113">
+    <mgoevent:participant>xa</mgoevent:participant>
+    <mgoevent:city>Saint-Cyr-Sur-Mer</mgoevent:city>
+    <mgoevent:datetime>2014-02-01T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7556113</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7458523">
+    <mgoevent:participant>Bijan Chemirani</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7458523</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7494401">
+    <mgoevent:participant>Elyose</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-02-03T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7494401</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7458533">
+    <mgoevent:participant>Bijan Chemirani</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-26T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7458533</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7524663">
+    <mgoevent:participant>Juke Joints Band</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7524663</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7569431">
+    <mgoevent:participant>4 Subject</mgoevent:participant>
+    <mgoevent:city>Villeurbanne</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7569431</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7348188">
+    <mgoevent:participant>Franz Robert WILD</mgoevent:participant>
+    <mgoevent:city>La Salvetat-Saint-Gilles</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7348188</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7491612">
+    <mgoevent:participant>Deejay Maeva Carter</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7491612</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7094653">
+    <mgoevent:participant>MANIFESTATION TEST SILO</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7094653</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7551047">
+    <mgoevent:participant>Staireoscope</mgoevent:participant>
+    <mgoevent:city>La Seyne-Sur-Mer</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T11:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7551047</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7522922">
+    <mgoevent:participant>Stéphane Grappelli</mgoevent:participant>
+    <mgoevent:participant>FLORENCE FOURCADE</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-02-02T17:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7522922</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7462396">
+    <mgoevent:participant>Edenmess</mgoevent:participant>
+    <mgoevent:city>Saint-Eloi</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7462396</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7467673">
+    <mgoevent:participant>Antoine Hervé</mgoevent:participant>
+    <mgoevent:participant>Duke Ellington</mgoevent:participant>
+    <mgoevent:city>Noisy Le Sec</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7467673</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7467334">
+    <mgoevent:participant>Miss Leïa</mgoevent:participant>
+    <mgoevent:participant>SKS DJ</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7467334</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7448032">
+    <mgoevent:participant>Basic Soul Unit</mgoevent:participant>
+    <mgoevent:participant>Cosmic Adventure</mgoevent:participant>
+    <mgoevent:eventId>7448032</mgoevent:eventId>
+    <mgoevent:participant>The Cosmic Adventure</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:datetime>2014-01-24T23:00:00</mgoevent:datetime>
+    <mgoevent:participant>Move D</mgoevent:participant>
+    <mgoevent:participant>Kosme</mgoevent:participant>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7188712">
+    <mgoevent:participant>I Me Mine</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-30T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7188712</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7522866">
+    <mgoevent:participant>Pascal Roeder</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T23:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7522866</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7552160">
+    <mgoevent:participant>Pascal Roeder</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T00:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7552160</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7030426">
+    <mgoevent:participant>Rough Influence</mgoevent:participant>
+    <mgoevent:city>Muret</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7030426</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7383662">
+    <mgoevent:participant>Grand Corps Malade</mgoevent:participant>
+    <mgoevent:city>Saint-Étienne</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7383662</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7509199">
+    <mgoevent:participant>Stardust Agency</mgoevent:participant>
+    <mgoevent:city>Solaize</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7509199</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7589411">
+    <mgoevent:participant>John Spano</mgoevent:participant>
+    <mgoevent:city>Blagnac</mgoevent:city>
+    <mgoevent:datetime>2014-01-30T19:45:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7589411</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7383380">
+    <mgoevent:participant>Wallace Negão Chanteur</mgoevent:participant>
+    <mgoevent:city>Six Fours</mgoevent:city>
+    <mgoevent:datetime>2014-01-26T18:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7383380</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7601183">
+    <mgoevent:participant>PEEV</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T12:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7601183</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6625262">
+    <mgoevent:participant>Denis Marechal | Officiel</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6625262</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7556164">
+    <mgoevent:participant>Ludius</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7556164</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7502915">
+    <mgoevent:participant>Marc Houle</mgoevent:participant>
+    <mgoevent:city>CabriÈs</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7502915</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7498568">
+    <mgoevent:participant>L'Appache</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-02-01T23:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7498568</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7476021">
+    <mgoevent:participant>Achille's Family</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7476021</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7094642">
+    <mgoevent:participant>Kataklysm</mgoevent:participant>
+    <mgoevent:participant>Krisiun</mgoevent:participant>
+    <mgoevent:city>Luynes</mgoevent:city>
+    <mgoevent:datetime>2014-01-26T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7094642</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7281939">
+    <mgoevent:participant>Cats On Trees</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7281939</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7471705">
+    <mgoevent:participant>Gervaise</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T19:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7471705</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6435601">
+    <mgoevent:participant>Messmer</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6435601</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7448013">
+    <mgoevent:participant>LUDOVIC DE PREISSAC TRIO invite MICHAEL JOUSSEIN</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T21:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7448013</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7393378">
+    <mgoevent:participant>Brian McKnight</mgoevent:participant>
+    <mgoevent:participant>Eric Benet</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7393378</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7142033">
+    <mgoevent:participant>Gabriel Saglio et les Vieilles Pies</mgoevent:participant>
+    <mgoevent:city>Launaguet</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7142033</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7484663">
+    <mgoevent:participant>Moodoïd</mgoevent:participant>
+    <mgoevent:participant>Moondoïd</mgoevent:participant>
+    <mgoevent:participant>Deutsch Amerikanische Freundschaft</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7484663</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7545439">
+    <mgoevent:participant>MC2</mgoevent:participant>
+    <mgoevent:participant>Empire Dust</mgoevent:participant>
+    <mgoevent:city>Venelles</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7545439</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7448065">
+    <mgoevent:participant>Dimoné</mgoevent:participant>
+    <mgoevent:participant>Da Silva</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-29T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7448065</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6859807">
+    <mgoevent:participant>Jur</mgoevent:participant>
+    <mgoevent:city>Salvagnac</mgoevent:city>
+    <mgoevent:datetime>2014-02-01T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>6859807</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7514817">
+    <mgoevent:participant>Tutti</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7514817</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6720543">
+    <mgoevent:participant>Alex Tassel</mgoevent:participant>
+    <mgoevent:city>Ollioules</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>6720543</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7573434">
+    <mgoevent:participant>The Pirouettes</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7573434</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7195731">
+    <mgoevent:participant>EXCESS OVERDRIVE</mgoevent:participant>
+    <mgoevent:participant>Adreno Krome</mgoevent:participant>
+    <mgoevent:city>Lyon - Villeurbanne Cedex</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7195731</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7583390">
+    <mgoevent:participant>Miqui Brightside</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7583390</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6440167">
+    <mgoevent:participant>My life 972</mgoevent:participant>
+    <mgoevent:participant>Kev Adams</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-26T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6440167</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7488530">
+    <mgoevent:participant>Si On Allait Au RestO ?</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T21:15:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7488530</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7428333">
+    <mgoevent:participant>les iNOUïS du Printemps de Bourges Crédit Mutuel</mgoevent:participant>
+    <mgoevent:participant>Monophonic Interzone</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7428333</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7496407">
+    <mgoevent:participant>DJ Stephanie</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T23:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7496407</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7229371">
+    <mgoevent:participant>Taiwan MC - Chinese Man Records</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-02-01T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7229371</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7566230">
+    <mgoevent:participant>The Noise</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-29T14:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7566230</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7529570">
+    <mgoevent:participant>Colonel Maxwell</mgoevent:participant>
+    <mgoevent:participant>JUNIOR ROY</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7529570</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7436389">
+    <mgoevent:participant>Vakula</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7436389</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7449208">
+    <mgoevent:participant>Allyson Ezell</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7449208</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6873128">
+    <mgoevent:participant>FAKE ODDITY</mgoevent:participant>
+    <mgoevent:city>Clichy</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6873128</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7580534">
+    <mgoevent:participant>MONALISA</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7580534</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7497767">
+    <mgoevent:participant>dKmiKe</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T22:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7497767</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7381365">
+    <mgoevent:participant>Dan Tepfer</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7381365</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7586866">
+    <mgoevent:participant>THEFKCLUB</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7586866</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7180586">
+    <mgoevent:participant>Jell-oO</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T21:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7180586</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7309971">
+    <mgoevent:participant>Soviet Suprem</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-30T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7309971</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7448717">
+    <mgoevent:participant>Demi Portion</mgoevent:participant>
+    <mgoevent:participant>La Microfaune</mgoevent:participant>
+    <mgoevent:participant>L'Animalerie</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7448717</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7595050">
+    <mgoevent:participant>Run Jane Run</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-02-01T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7595050</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7367268">
+    <mgoevent:participant>Andrea Michelutti</mgoevent:participant>
+    <mgoevent:participant>MICHAEL JOUSSEIN</mgoevent:participant>
+    <mgoevent:participant>LUDOVIC DE PREISSAC</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T21:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7367268</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7481726">
+    <mgoevent:participant>Pierre Georges</mgoevent:participant>
+    <mgoevent:city>Ivry-Sur-Seine</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7481726</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7411263">
+    <mgoevent:participant>This Life</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7411263</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7477667">
+    <mgoevent:participant>TAZIEFF</mgoevent:participant>
+    <mgoevent:city>Saint-Cloud</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7477667</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7525004">
+    <mgoevent:participant>POUVOIR MAGIQUE</mgoevent:participant>
+    <mgoevent:participant>Mawimbi</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7525004</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7486175">
+    <mgoevent:participant>bonobo concept</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T12:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7486175</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7583391">
+    <mgoevent:participant>Zio-John</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T18:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7583391</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6934348">
+    <mgoevent:participant>Egschiglen</mgoevent:participant>
+    <mgoevent:city>Berre L Etang</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T21:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6934348</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7157853">
+    <mgoevent:participant>The Shrine, Lord Dying</mgoevent:participant>
+    <mgoevent:participant>Lord Dying</mgoevent:participant>
+    <mgoevent:participant>the Shrine</mgoevent:participant>
+    <mgoevent:participant>Red Fang</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-28T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7157853</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7134177">
+    <mgoevent:participant>Yodelice</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7134177</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7411260">
+    <mgoevent:participant>This Life</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7411260</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7438028">
+    <mgoevent:participant>The Walking Dead Orchestra</mgoevent:participant>
+    <mgoevent:city>Saint-Étienne</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7438028</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7367270">
+    <mgoevent:participant>Brain Damage</mgoevent:participant>
+    <mgoevent:participant>Iphaze</mgoevent:participant>
+    <mgoevent:city>Montauban</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7367270</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7391271">
+    <mgoevent:participant>Géraldine Laurent</mgoevent:participant>
+    <mgoevent:city>Les Lilas</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T21:00:00</mgoevent:datetime>
+    <mgoevent:participant>Philippe Gleizes</mgoevent:participant>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:participant>Emmanuel Harang</mgoevent:participant>
+    <mgoevent:participant>Christophe Monniot</mgoevent:participant>
+    <mgoevent:participant>Médéric Collignon</mgoevent:participant>
+    <mgoevent:eventId>7391271</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7324569">
+    <mgoevent:participant>3 minutes sur mer</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7324569</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7452195">
+    <mgoevent:participant>ADRIEN MOIGNARD</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7452195</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7461990">
+    <mgoevent:participant>Rona Hartner</mgoevent:participant>
+    <mgoevent:participant>LA JAVA DES BALKANS</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7461990</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7484506">
+    <mgoevent:participant>ALAIN ORTEGA</mgoevent:participant>
+    <mgoevent:city>Miramas</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T21:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7484506</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7273632">
+    <mgoevent:participant>Tambour Battant</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7273632</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7472371">
+    <mgoevent:participant>PENDENTIF</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-30T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7472371</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7466715">
+    <mgoevent:participant>Kamel Le Magicien</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7466715</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6842278">
+    <mgoevent:participant>The Sticky Boys</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6842278</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6797236">
+    <mgoevent:participant>MONALISA</mgoevent:participant>
+    <mgoevent:participant>BB Brunes</mgoevent:participant>
+    <mgoevent:city>Istres</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6797236</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7589643">
+    <mgoevent:participant>Le Common Diamond</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T18:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7589643</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7488242">
+    <mgoevent:participant>The Jerry Khan Bangers</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-30T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7488242</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7471754">
+    <mgoevent:participant>Edwar Bineau Trio</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7471754</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7545440">
+    <mgoevent:participant>Julian Jeweil</mgoevent:participant>
+    <mgoevent:city>Ramonville-Saint-Agne</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T23:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7545440</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6720546">
+    <mgoevent:participant>Alex Tassel</mgoevent:participant>
+    <mgoevent:city>Ollioules</mgoevent:city>
+    <mgoevent:datetime>2014-02-01T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>6720546</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7452196">
+    <mgoevent:participant>L'ORCHESTRE DE LA LUNE</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7452196</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7602344">
+    <mgoevent:participant>R-ASH</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T22:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7602344</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7574459">
+    <mgoevent:participant>The Taikonauts</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7574459</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7533452">
+    <mgoevent:participant>Compagnie d'Eux - L'Officielle.</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T21:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7533452</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7388422">
+    <mgoevent:participant>Julien Fortier</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7388422</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7340040">
+    <mgoevent:participant>Entre Dos Aguas</mgoevent:participant>
+    <mgoevent:participant>Batlik</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-29T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7340040</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7305911">
+    <mgoevent:participant>Matthieu Mendès</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-30T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7305911</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6493074">
+    <mgoevent:participant>Feathers</mgoevent:participant>
+    <mgoevent:participant>Depeche Mode</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6493074</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7383385">
+    <mgoevent:participant>Wallace Negão Chanteur</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7383385</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7502350">
+    <mgoevent:eventId>7502350</mgoevent:eventId>
+    <mgoevent:datetime>2014-01-25T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:participant>Céline Bonacina</mgoevent:participant>
+    <mgoevent:participant>Sylvaine Hélary</mgoevent:participant>
+    <mgoevent:participant>François Laizeau</mgoevent:participant>
+    <mgoevent:participant>Airelle Besson</mgoevent:participant>
+    <mgoevent:city>Vitrolles</mgoevent:city>
+    <mgoevent:participant>Didier Levallet</mgoevent:participant>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#6818235">
+    <mgoevent:participant>Robben Ford Quartet</mgoevent:participant>
+    <mgoevent:participant>Robben Ford</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-26T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>6818235</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7493241">
+    <mgoevent:participant>Fancy Blossom</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7493241</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7428013">
+    <mgoevent:participant>Cosimo &amp; Co Blues Band</mgoevent:participant>
+    <mgoevent:city>Ollioules</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7428013</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7384692">
+    <mgoevent:participant>Monsieur Lézard</mgoevent:participant>
+    <mgoevent:participant>Yaniss Odua</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-29T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7384692</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7094636">
+    <mgoevent:participant>Nicole Rieu</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T21:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7094636</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7376671">
+    <mgoevent:participant>Sostenuto</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7376671</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7559479">
+    <mgoevent:participant>Grand Balcony Twang Machine</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-30T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7559479</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7590582">
+    <mgoevent:participant>AFTERWORK LEVANT'IN</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T19:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7590582</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7489560">
+    <mgoevent:participant>xa</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-31T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7489560</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7448093">
+    <mgoevent:participant>Drunksouls</mgoevent:participant>
+    <mgoevent:participant>Blower</mgoevent:participant>
+    <mgoevent:datetime>2014-02-01T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:participant>Festival des Massiliades</mgoevent:participant>
+    <mgoevent:participant>Juveniles</mgoevent:participant>
+    <mgoevent:eventId>7448093</mgoevent:eventId>
+    <mgoevent:participant>Drunksoul</mgoevent:participant>
+    <mgoevent:participant>Taiwan Mc</mgoevent:participant>
+    <mgoevent:participant>Salut c'est cool</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7426998">
+    <mgoevent:participant>Gérard Lenorman – OFFICIEL</mgoevent:participant>
+    <mgoevent:city>Tournefeuille</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7426998</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7094635">
+    <mgoevent:participant>Feloche</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T19:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7094635</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7486740">
+    <mgoevent:participant>Prestige du violon et grands airs d'opéra à travers les siècles</mgoevent:participant>
+    <mgoevent:city>Paris</mgoevent:city>
+    <mgoevent:datetime>2014-01-23T20:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7486740</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7551971">
+    <mgoevent:participant>Alpaga</mgoevent:participant>
+    <mgoevent:participant>The Gabelt</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-02-02T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7551971</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7590581">
+    <mgoevent:participant>AFTERWORK LEVANT'IN</mgoevent:participant>
+    <mgoevent:city>Marseille</mgoevent:city>
+    <mgoevent:datetime>2014-01-24T19:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7590581</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7409341">
+    <mgoevent:participant>REMI TOULON</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-02-01T21:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>unavailable</mgoevent:ticketStatus>
+    <mgoevent:eventId>7409341</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7448073">
+    <mgoevent:participant>MR TRISTAN</mgoevent:participant>
+    <mgoevent:city>Toulouse</mgoevent:city>
+    <mgoevent:datetime>2014-01-30T20:30:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7448073</mgoevent:eventId>
+  </mgoevent:event>
+  <mgoevent:event rdf:about="http://www.findevent.fr#7318863">
+    <mgoevent:participant>Niveau Zero</mgoevent:participant>
+    <mgoevent:city>Lyon</mgoevent:city>
+    <mgoevent:datetime>2014-01-25T19:00:00</mgoevent:datetime>
+    <mgoevent:ticketStatus>available</mgoevent:ticketStatus>
+    <mgoevent:eventId>7318863</mgoevent:eventId>
+  </mgoevent:event>
+</rdf:RDF>
