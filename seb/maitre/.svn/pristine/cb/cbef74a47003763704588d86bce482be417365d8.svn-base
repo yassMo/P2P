@@ -1,0 +1,13 @@
+source.. = src/,\
+           generate/src/
+bin.includes = .classpath,\
+               .project,\
+               bin/,\
+               build.properties,\
+               buildST.xml,\
+               generate/,\
+               ListeDesTaches.txt,\
+               META-INF/,\
+               plugin.properties,\
+               plugin.xml,\
+               .

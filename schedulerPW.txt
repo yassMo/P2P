@@ -1,0 +1,87 @@
+
+"TP ordonnanceur":
+
+This is a user Manual and a brief report of the actions carried.
+
+Usage :
+
+First of all Unzip the files --> import them in Eclipse(install the plugin Smartools) --> then run as an OSGi Framework.
+
+Remarks : 
+
+--We used a JFrame to show the communication track
+--In the displayed window during the execution you will see the master's actions
+--Workers action are displayed in the console
+
+Modifications : 
+
+ -- attente --> waitingStack ( we took time to undersand that we have to loop on the available tasks to assign them to available workers in the stack when a task2 depends on task1 and task1 is not done yet we can't assign it to a workers we use LIFO to the waiting stack to assign workers to "available tasks" )
+ -- Statut --> TaskStatus : "EN ATTENTE" when it's available , "EFFECTUEE" when it's executed , "En cours d'execution" when a worker is running it. 
+
+ Master : Five Methods to complete 
+ 
+--------------------------------------------------"estlibre" : isAvailable---------------------------------------------------------------
+
+Test a file line
+Returns true if the task of this line is free
+        False otherwise
+
+A task is Available if all its dependencies are resolved ( ! DONE , ! Running).
+If a task has dependencies ::> Test the state of each of the dependencies :
+   . Path vector dependencies and read the state of the dependence
+ One dependency is not DONE means all the dependencies are UnDone
+
+----------------------------------------------------"getTache" : getTask--------------------------------------------------------------------
+
+Retrieve the identifier of the task assigned to the worker "expeditor"
+Returns the index in "TaskStatus" of the task made ​​by the worker
+
+-----------------------------------------------------"recevoirFindeTache"----------------------------------------------------
+
+Retrieve the Id of the Task executed by the worker
+
+----------------------------------------------------"lireProchaineLigneLibre" ----------------------------------------------
+
+return the first Available task Browsing file lines
+
+-----------------------------------------------------"recevoirRequete"--------------------------------------------------------------------
+
+Master receive request from the worker, put this last one in the waiting stack then execute "assignTask"
+
+-----------------------------------------------------"assignTask"------------------------------------------------------------------------
+
+We browse the list of tasks: while there are still tasks AND "task and worker" are available then a task is assigned to the worker.
+No available tasks means no message sent to workers
+We update the status of tasks in "taskStatus" as: <id of cmd sent>, <worker running it>
+Otherwise we take the worker from the top of the stack "Lifo" and we assign "cmd" to him.
+Master send task to worker with command "cmd".  
+As explained if there is one worker then if : a=askTask and b=sendTask and c=sendndTask, we'll get the regular expression a(bc)*
+But we have more than one worker which explains the process used in the Waitingstack.
+
+Worker : 2 methods to complete
+
+
+------------------------------------------------------recevoirTache()----------------------------------------------------------
+
+This method enables the reception and launching execution of a task that Master gives to the "Travailleur". 
+In this method we do "demandeTache" immediately after the reception of task and will put the related task under execution.
+we dont care about the whether task is correctly executed HERE since we have "envoyerFinTache()"in method "effectuerTache()". 
+When Master receives the sign of "fin tache", it will update status table and assign the available task to available "travailleur".
+
+
+-----------------------------------------------------------effectuerTache()-------------------------------------------------------------
+
+This method enables the execution of task. If this method meets a "End of File", it will send directly to Master indicating that 
+it has finished its task (ie. envoyerFindeTache()). Otherwise, it will do its job properly and by the end send "envoyerFindeTache()" to Master.
+
+
+
+Realized By Yassine MOTIE : yassinemotie@gmail.com , yassine.motie@etud.univ-montp2.fr
+            and
+            Cenyang GAO : Chenyanggao123@gmail.com , chenyang.gao@etud.univ-montp2.fr
+
+
+
+
+
+

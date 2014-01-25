@@ -1,0 +1,157 @@
+package travailleur;
+
+import inria.communicationprotocol.CommunicationProtocolFacade;
+
+
+import java.io.IOException;
+
+/**
+ * @author Jimmy Benoits <br/>
+ * 
+ *	Contient le component Travailleur. Travailleur demande une tâche au maître dès qu'il est disponible 
+ *	(ie. quand il n'exécute aucune tâche). Quand il reçoit une tâche, il l'exécute et informe le maître 
+ *	que la tâche a été effectué.
+ *
+ */
+public abstract class Travailleur extends CommunicationProtocolFacade {
+
+
+
+	/**
+	 * @param expeditor : Nom du maître qui a assigné la tâche 
+	 * @param parameter : Chaine de charactere représentant la tâche à effectuer.
+	 */
+	public void recevoirTache( String expeditor, java.lang.String parameter){
+		try {
+			effectuerTache(parameter, expeditor);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+
+
+	public abstract void demanderTache();
+
+	/**
+	 * @param destination Nom du maître <br/>
+	 * Envoit un signal au maître. Il permet de signifier au maître que le travailleur est disponible
+	 * et qu'il attend donc une tache à effectuer.
+	 */
+	public abstract void demanderTache(String destination);
+
+
+
+	/**
+	 * envoyerFindeTache envoit un signal au maître. Il permet de signifier au maître que le travailleur a fini la tâche
+	 * qu'on lui avait affecté.
+	 */
+	public abstract void envoyerFindeTache();
+
+	
+	
+	/**
+	 * @param destination  Nom du maître <br/>
+	 * Envoit un signal au maître. Il permet de signifier au maître que le travailleur a fini la tâche
+	 * qu'on lui avait affecté.
+	 */
+	public abstract void envoyerFindeTache(String destination);
+
+
+
+
+	public void disconnectInput(String expeditor) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void shutdown(String expeditor) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public Object requestTree(String expeditor) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void quit(String expeditor) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see inria.communicationprotocol.CommunicationProtocol#neighbourJustConnected(java.lang.String, java.lang.String)
+	 * 
+	 * Méthode se déclanchant lors d'une connexion à un service. Si ce service est 'demanderTache', le travailleur
+	 * demande une tâche au maître.
+	 */
+	@Override
+	protected void neighbourJustConnected(String name, String service) {
+		super.neighbourJustConnected(name, service);
+		if (service.equals("demanderTache"))
+		{
+			demanderTache(name);	
+		}
+	}
+
+
+	/**
+	 * @param parameter : Chaine de caractère représentant la tâche à effectuer, pour le moment, une commande.
+	 * Si parameter est "#FindeFichier~", travailleur met fin au programme.
+	 * @param commanditaire : identifiant du commanditaire de l'opération. Dans notre cas, le maître. <br/>
+	 * Execute la commande et une fois terminée envoit le signal de fin de tache et de disponibilité.
+	 * @throws IOException 
+	 */
+	private void effectuerTache(String parameter, String commanditaire) throws IOException {
+
+		System.out.println("Execution de la commande : "+parameter+" par : "+ getIdName());
+		
+		if (parameter.equals("~FinDeFichier~"))
+		{
+			System.exit(0);
+		}
+		else 
+		{
+			/*
+			 * Test du système (rendu nécessaire par l'utilisation de commande)
+			 * Pour le moment, le cas Windows est traité séparement de tous les autres cas (il est supposé
+			 * que si le système n'est pas Windows, alors c'est Linux)
+			 */
+			String os = System.getProperty("os.name");
+			if (os.substring(0, 3).equals("Win") || (os.substring(0, 3)).equals("win"))
+			{
+
+				try {
+					// Construction, lancement et attente du processus exécutant la commande sous Windows
+					String [] arg = { "cmd.exe", "/C", parameter };
+					ProcessBuilder pb = new ProcessBuilder(arg);
+					Process p = pb.start();
+					System.out.println("\r\n Attente de l'execution de l'instruction : "+parameter+" par : "+ getIdName());
+					p.waitFor();
+					System.out.println(" \r\n Fin de l'attente de l'execution de l'instruction : "+parameter+" par : "+ getIdName());
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+			else 
+			{
+				try {
+					// Construction, lancement et attente du processus exécutant la commande sous Linux
+					String [] arg = { "/bin/sh", "-c", parameter};
+					ProcessBuilder pb = new ProcessBuilder(arg);
+					Process p = pb.start();
+					System.out.println("\r\n Attente de l'execution de l'instruction : "+parameter+" par : "+ getIdName());
+					p.waitFor();
+					System.out.println("\r\n Fin de l'attente de l'execution de l'instruction : "+parameter+" par : "+ getIdName());
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		System.out.println("\r\n Commande "+parameter+" effectuee"+" par : "+ getIdName());
+		envoyerFindeTache(commanditaire);
+		demanderTache(commanditaire);
+	}
+
+}

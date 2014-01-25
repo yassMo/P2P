@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<component name="travailleur" type="travailleur" extends="inria.communicationprotocol" ns="travailleur">
+
+	<containerclass name="TravailleurContainer"/>
+	<facadeclass name="TravailleurFacade" userclassname="Travailleur"/>
+
+	<input name="envoyerTache" method="recevoirTache">
+		<attribute name="cmd" javatype="java.lang.String"/>
+	</input>
+
+	<output name="demanderTache" method="demanderTache">
+	</output>
+	
+	<output name="envoyerFindeTache" method="envoyerFindeTache">
+	</output>
+
+</component>

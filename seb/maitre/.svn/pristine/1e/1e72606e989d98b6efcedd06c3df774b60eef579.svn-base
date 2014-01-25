@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?eclipse version="3.4"?>
+
+<plugin>
+	<extension point="smarttools.component">
+<cdml cdmlName="maitre" componentName="maitre" containerName="maitre.MaitreContainer" facadeName="maitre.MaitreFacade"/>
+</extension>
+</plugin>
