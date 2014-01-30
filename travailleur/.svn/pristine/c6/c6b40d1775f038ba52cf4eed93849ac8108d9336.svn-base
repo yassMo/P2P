@@ -1,0 +1,71 @@
+<project name="travailleur" default="all" basedir=".">
+	
+	<property name="basews" value="${ws}"/>
+	<property name="baseos" value="${os}"/>
+	<property name="basearch" value="${arch}"/>
+	<property name="basenl" value="${nl}"/>
+
+	<!-- Compiler settings. -->
+	<property name="javacFailOnError" value="false"/>
+	<property name="javacDebugInfo" value="on"/>
+	<property name="javacVerbose" value="false"/>
+	<property name="logExtension" value=".log"/>
+	<property name="compilerArg" value=""/>
+	<property name="javacSource" value="1.5"/>
+	<property name="javacTarget" value="1.5"/>
+	<path id="path_bootclasspath">
+		<fileset dir="${java.home}/lib">
+				<include name="*.jar"/>
+		</fileset>
+	</path>
+	<property name="bootclasspath" refid="path_bootclasspath"/>
+	<property name="bundleJavacSource" value="${javacSource}"/>
+	<property name="bundleJavacTarget" value="${javacTarget}"/>
+	<property name="bundleBootClasspath" value="${bootclasspath}"/>
+	
+	<property name="run-classpath"
+	 value="/Users/dparigot/eclipse/plugins/absynt_1.6.2.jar:/Users/dparigot/eclipse/plugins/componentsgenerators_1.6.2.1.jar:/Users/dparigot/eclipse/plugins/cosynt_1.6.2.jar:/Users/dparigot/eclipse/plugins/inria.smarttools.core_1.6.2.1.jar:/Users/dparigot/eclipse/plugins/inria.smarttools.dynamic_1.6.2.jar:/Users/dparigot/eclipse/plugins/inria.smarttools.generator_1.6.2.1.jar:/Users/dparigot/eclipse/plugins/inria.smarttools.tree_1.6.2.jar:/Users/dparigot/eclipse/plugins/xprofile_1.6.2.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/System/Library/Java/Extensions/AppleScriptEngine.jar:/System/Library/Java/Extensions/dns_sd.jar:/System/Library/Java/Extensions/j3daudio.jar:/System/Library/Java/Extensions/j3dcore.jar:/System/Library/Java/Extensions/j3dutils.jar:/System/Library/Java/Extensions/jai_codec.jar:/System/Library/Java/Extensions/jai_core.jar:/System/Library/Java/Extensions/mlibwrapper_jai.jar:/System/Library/Java/Extensions/MRJToolkit.jar:/System/Library/Java/Extensions/QTJava.zip:/System/Library/Java/Extensions/vecmath.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar:/Users/dparigot/workspace1/inria.smarttools.lib/sac.jar:/Users/dparigot/workspace1/inria.smarttools.lib/xercesImpl.jar:/Users/dparigot/workspace1/inria.smarttools.lib/jaxp.jar:/Users/dparigot/workspace1/inria.smarttools.lib/xerces.jar:/Users/dparigot/workspace1/inria.smarttools.lib/crimson.jar:/Users/dparigot/workspace1/inria.smarttools.lib/xml-apis.jar:/Users/dparigot/workspace1/inria.smarttools.lib/xalan.jar:/Users/dparigot/workspace1/inria.smarttools.lib/commons-collections.jar:/Users/dparigot/workspace1/inria.smarttools.lib/antlr.jar:/Users/dparigot/workspace1/inria.smarttools.lib/bmlplayer.jar:/Users/dparigot/workspace1/inria.smarttools.lib/koala-graphics.jar:/Users/dparigot/workspace1/inria.smarttools.lib/xsltc.jar:/Users/dparigot/workspace1/inria.smarttools.lib/batik-css.jar:/Users/dparigot/workspace1/inria.smarttools.lib/batik-util.jar:/Users/dparigot/workspace1/inria.smarttools.lib/tools.jar:/Users/dparigot/workspace1/inria.smarttools.lib/stax-1.2.0.jar:/Users/dparigot/workspace1/inria.smarttools.lib/stax-api-1.0.1.jar:/Users/dparigot/workspace1/inria.smarttools.lib/gson-1.3.jar:/Users/dparigot/workspace1/inria.smarttools.lib/bin:/Users/dparigot/eclipse/plugins/componentsManager_1.6.2.jar:/Users/dparigot/eclipse/plugins/org.eclipse.osgi_3.8.0.v20120529-1548.jar:/Users/dparigot/workspace1/inria.communicationprotocol/bin:/Users/dparigot/workspace1/travailleur/bin"/>
+	
+	<!-- Plugins settings. -->	
+	<property name="path" value="${basedir}"/>
+	<property name="temp.dir" value="${basedir}/generate/"/>
+	<basename property="basename" file="${basedir}" />
+	
+	
+	<target name="all" depends="clean, user.generate.component" />
+	
+	<target name="clean">
+		<basename property="basename" file="${path}" />
+				
+		<delete dir="${path}/generate/" />
+		<!--<mkdir dir="${path}/generate/" />
+		<mkdir dir="${path}/generate/parsers" />
+		<mkdir dir="${path}/generate/src" />
+		<mkdir dir="${path}/generate/src/${basename}" />
+		<mkdir dir="${path}/generate/src/${basename}/resources/" />
+		<mkdir dir="${path}/generate/src/${basename}/resources/css" />
+		<mkdir dir="${path}/generate/src/${basename}/resources/xsl" />-->
+	</target>
+	
+	<!-- Compile user component -->
+	<target name="user.generate.component">
+		
+		<basename property="basename" file="${path}" />
+		
+		<java classname="componentsgenerators.ComponentGenerator" fork="true" classpath="${run-classpath}">
+			<arg value="-componentDir" />
+			<arg value="${path}/" />
+			<!--<arg value="-classesOutputDir" />
+			<arg value="${path}/bin/" />
+			<arg value="-OutputDir" />
+			<arg value="${path}/generate/" />-->
+			<arg value="-classpath" />
+			<arg value="${run-classpath}" />
+			<!--<arg value="-jarName" />
+			<arg value="${temp.dir}/${basename}.jar" />
+			<arg value="-verbose" />-->
+		</java>
+		
+	</target>	
+	
+</project>

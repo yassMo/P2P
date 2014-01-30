@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: travailleur
+Bundle-SymbolicName: travailleur;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: travailleur.Activator
+Bundle-ActivationPolicy: lazy
+Export-Package: travailleur,
+ travailleur.resources
+Bundle-Vendor: INRIA SmartTools
+Import-Package: javax.swing,
+ org.osgi.framework
+Require-Bundle: inria.smarttools.lib,
+ inria.smarttools.core,
+ componentsManager;bundle-version="1.6.2",
+ inria.communicationprotocol;bundle-version="0.3.0"

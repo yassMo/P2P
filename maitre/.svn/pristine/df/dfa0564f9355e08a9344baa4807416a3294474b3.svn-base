@@ -1,0 +1,408 @@
+package maitre;
+
+import inria.communicationprotocol.CommunicationProtocolFacade;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Scanner;
+import java.util.Stack;
+import java.util.Vector;
+
+/**
+ * @author Jimmy Benoits <br/>
+ * 
+ *         Contient le component Maitre. Le component Maitre permet de gérer la
+ *         distribution des tâches. C'est lui qui lit le fichier, trouve les
+ *         tâches libres et les envoit aux travailleurs.
+ */
+
+public abstract class Maitre extends CommunicationProtocolFacade {
+
+	/**
+	 * attente est une pile regroupant les travailleurs disponibles. Lorsqu'un
+	 * travailleur envoit une requete, il est placé dans attente. Si une tâche
+	 * est disponible, elle est envoyée au premier élément de attente (haut de
+	 * la pile)
+	 */
+	private static Stack<String> attente = new Stack<String>();
+
+	/**
+	 * f est le fichier contenant l'ensemble des taches à effectuer. Attention f
+	 * doit être normé de telle sorte :<br/>
+	 * identifiant ## commande ## dépendances <br/>
+	 * Exemple : <br/>
+	 * 0 ## cd /test/truc ## <br/>
+	 * 1 ## cat fichierinutile.txt ## 0 <br/>
+	 * 2 ## rm fichierinutile.txt ## 1 <br/>
+	 * 3 ## ~FinDeFichier~ ## 0, 1, 2 <br/>
+	 * 
+	 * f se trouve dans le dossier "workflow"(emplacement du jar
+	 * travail-starter). Il doit être nommé "Liste des Taches"
+	 */
+	private static File f = new File("ListeDesTaches.txt");
+
+	/**
+	 * statut est une HashMap permettant de retrouver facilement le statut une
+	 * tâche. <br/>
+	 * statut est de la forme<Integer, String>. <br/>
+	 * La clé est un Integer, c'est l'identifiant de la tâche. La valeur est un
+	 * String, il permet de connaître l'état de la tache "i" : <br/>
+	 * - « en attente » <br/>
+	 * - « effectuee » <br/>
+	 * - le nom trailleur traitant la tâche si elle est en court d'exécution <br/>
+	 * statut est initialisé au lancement du programme. Il prend alors une
+	 * taille égale au nombre d'opérations dans le fichier, ie. le nombre de
+	 * lignes, et toutes les valeurs sont initialisées à "en attente".
+	 */
+	private static HashMap<Integer, String> statut = new HashMap<Integer, String>();
+	static {
+		for (int i = 0; i < Maitre.nbLignes(Maitre.f); i++) {
+			Maitre.statut.put(i, "en attente");
+		}
+	}
+
+	/**
+	 * @param ligne
+	 *            La ligne du fichier à tester
+	 * @return True si la ligne est libre de dépendance (ie. n'a aucune
+	 *         dépendance ou bien toutes les tâches correspondant à ses
+	 *         dépendances sont mis à 'effectuee' dans le tableau 'statut'.
+	 *         False sinon (ie. des dépendances ne sont pas effectuées : soit
+	 *         'en attente' soit en cours de traitement par un autre
+	 *         travailleur, la tâche est déjà effectuée ou elle est en cours
+	 *         d'exécution par un autre travailleur).
+	 */
+	public static boolean estLibre(final String ligne) {
+		final Integer i = Maitre.getId(ligne);
+		/*
+		 * On ne traite que les lignes dont le statut est "en attente"
+		 */
+		if (Maitre.statut.get(i).equals("en attente")) {
+			/*
+			 * On construit le tableau des dépendances. S'il est vide, on
+			 * retourne true. Sinon, si son 1er élément est une tâche déjà
+			 * effectuée, on l'enlève du tableau et on recommence. Si l'on
+			 * trouve une dépendance qui n'est pas à "effectuee", on retourne
+			 * false.
+			 */
+			final Vector<Integer> dep = Maitre.getDep(ligne);
+			while (!dep.isEmpty()) {
+				if (Maitre.statut.get(dep.get(0)).equals("effectuee")) {
+					dep.remove(0);
+				} else {
+					return false;
+				}
+			}
+			return true;
+		}
+		return false;
+
+	}
+
+	/**
+	 * @param ligne
+	 *            La chaîne de caractère à partir de laquelle on doit extraire
+	 *            la commande.
+	 * @return La chaîne de charactère correspondant à la commande de la ie
+	 *         ligne. La commande est la 2e partie de la ligne, ie. la partie
+	 *         comprise entre deux "##".
+	 */
+	private static String getCmd(final String ligne) {
+
+		int j = 0;
+		String cmd = "";
+		while (ligne.charAt(j) != '#' && ligne.charAt(j + 1) != '#') {
+			j++;
+		}
+		j = j + 4;
+		while (ligne.charAt(j) != '#' && ligne.charAt(j + 1) != '#') {
+			cmd += ligne.charAt(j);
+			j++;
+		}
+		return cmd;
+
+	}
+
+	/**
+	 * @param ligne
+	 *            La chaîne de caractère à partir de laquelle on doit extraire
+	 *            les dépendances.
+	 * @return L'ensemble des dépendances de la ligne (sous forme d'Integer,
+	 *         pour être facilement utilisé dans le tableau 'statut'
+	 */
+	private static Vector<Integer> getDep(final String ligne) {
+		/*
+		 * Le principe est d'aller chercher la chaîne de caractère se trouvant
+		 * entre la 2e série de '##' et la fin de la ligne.
+		 */
+
+		final Vector<Integer> dep = new Vector<Integer>();
+		int j = 0;
+		String d = "";
+		while (ligne.charAt(j) != '#' && ligne.charAt(j + 1) != '#') {
+			j++;
+		}
+		j = j + 3;
+		while (ligne.charAt(j) != '#' && ligne.charAt(j + 1) != '#') {
+			j++;
+		}
+		j = j + 4;
+
+		/*
+		 * Maintenant que 'j' est après la 2e série de '##', on va récupérer les
+		 * dépendances :
+		 */
+		while (j < ligne.length()) {
+			/*
+			 * Si j est un espace ou un virgule, on ne fait rien et on
+			 * l'incrémente
+			 */
+			if (ligne.charAt(j) != ' ' && ligne.charAt(j) != ',') {
+				/*
+				 * Sinon, on récupère tous les char successifs qui sont
+				 * différents d'une virgule ou d'un espace (rappel : les
+				 * dépendances sont de la forme 9, 11, 17)
+				 */
+				while (j < ligne.length() && ligne.charAt(j) != ','
+						&& ligne.charAt(j) != ' ') {
+					d += "" + ligne.charAt(j);
+					j++;
+				}
+				/*
+				 * On ajoute au Vector des dépendances l'Integer correspondant à
+				 * la chaîne ainsi construite
+				 */
+				dep.add(Integer.parseInt(d));
+				d = "";
+			}
+			j++;
+		}
+		return dep;
+	}
+
+	/**
+	 * @param ligne
+	 *            : la chaîne de caractère à partir de laquelle on doit extraire
+	 *            l'identifiant.
+	 * @return L'id correspondant à la ligne du fichier passée en paramètre.
+	 *         L'id est un Integer. C'est la clé correspondant à la commande de
+	 *         'ligne' dans le tableau 'statut'. L'id correspond à la première
+	 *         partie du document, ie. au mot se trouvant avant le 1er "##".
+	 */
+	public static Integer getId(final String ligne) {
+		String id = "";
+		int j = 0;
+		while (ligne.charAt(j) != '#' && ligne.charAt(j + 1) != '#') {
+			id += ligne.charAt(j);
+			j++;
+		}
+		return Integer.parseInt(id);
+	}
+
+	/**
+	 * @param i
+	 *            : numéro de ligne
+	 * @param f
+	 *            : fichier text
+	 * @return La ie ligne du fichier f
+	 */
+	private static String getLigne(final int i, final File f) {
+		int j = 0;
+		String line = "";
+		Scanner sc = null;
+		try {
+			sc = new Scanner(f);
+		} catch (final FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		while (j < i && sc.hasNextLine()) {
+			line = sc.nextLine();
+			j++;
+		}
+		if (j < i && !sc.hasNextLine()) {
+			return "Erreur, il n'y a pas autant de ligne dans le fichier";
+		}
+		sc.close();
+		return line;
+	}
+
+	/**
+	 * @param travailleur
+	 *            : travailleur étant en train d'effectuer une tâche
+	 * @param h
+	 *            : hastable statut
+	 * @return l'indice dans 'statut' de la tâche effectuée par le travailleur
+	 */
+	public static int getTache(final String travailleur,
+			final HashMap<Integer, String> h) {
+		int indice = -1;
+		for (Integer i = new Integer(0); i < h.size(); i = new Integer(i + 1)) {
+			if (h.get(i).equals(travailleur)) {
+				indice = i;
+			}
+		}
+		if (indice == -1) {
+			System.out.println("Erreur, le travailleur : " + travailleur
+					+ " n'était pas en train d'effectuer une tache"
+					+ ", code retour : -1");
+		}
+		return indice;
+	}
+
+	/**
+	 * @param f
+	 *            . fichier txt normé.
+	 * @return : La chaine de caractère correspondant à la ligne de la prochaine
+	 *         instruction libre de dépendances. S'il n'y a pas d'instruction
+	 *         libre de dépendance disponible, l'instruction particulière
+	 *         "~NoTask~" est envoyée.
+	 * 
+	 */
+	public static String lireProchaineLigneLibre(final File f) {
+		final int nb = Maitre.nbLignes(f);
+		int j = 1;
+		Boolean trouve = false;
+		String ligne = "";
+		/*
+		 * Parcours des toutes les lignes du tableau tant que l'on n'en trouve
+		 * pas une libre
+		 */
+		while (j <= nb && !trouve) {
+			ligne = Maitre.getLigne(j, f);
+			trouve = Maitre.estLibre(ligne);
+			j++;
+		}
+		/*
+		 * Si on en a trouvé une, on la retourne. Sinon, on retourne "~NoTask~"
+		 */
+		if (trouve) {
+			return ligne;
+		} else {
+			return "~NoTask~";
+		}
+	}
+
+	/**
+	 * @param f
+	 *            : fichier txt normé
+	 * @return Le nombre de ligne dans le fichier.
+	 */
+	private static int nbLignes(final File f) {
+		{
+			BufferedReader reader = null;
+			try {
+				reader = new BufferedReader(new FileReader(f));
+			} catch (final FileNotFoundException e) {
+				e.printStackTrace();
+			}
+			int nblines = 0;
+			try {
+				while (reader.readLine() != null) {
+					nblines++;
+				}
+			} catch (final IOException e) {
+				e.printStackTrace();
+			}
+			try {
+				reader.close();
+			} catch (final IOException e) {
+				e.printStackTrace();
+			}
+			return nblines;
+		}
+	}
+
+	@Override
+	public void disconnectInput(final String expeditor) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public abstract void envoyerTache(java.lang.String cmd);
+
+	/**
+	 * @param destination
+	 *            : nom du travailleur
+	 * @param cmd
+	 *            : commande qu'il devra exécuter <br/>
+	 *            envoyerTache envoit une tâche sous forme de chaîne de
+	 *            caractère à un travailleur. Le travailleur exécutera alors la
+	 *            tâche.
+	 */
+	public abstract void envoyerTache(String destination, java.lang.String cmd);
+
+	@Override
+	public void quit(final String expeditor) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/**
+	 * @param expeditor
+	 *            : identifiant du travailleur qui a envoyé la requête. <br/>
+	 *            recevoirFindeTache capte le signal de fin de tâche d'un
+	 *            travailleur. Une fois le signal capté il modifie l'état de
+	 *            tâche assignée à expeditor en "Effectuée".
+	 */
+	public void recevoirFindeTache(final String expeditor) {
+		Maitre.statut.put(Maitre.getTache(expeditor, Maitre.statut),
+				"effectuee");
+		System.out
+				.println("\r\n 'statut' apres que la tache ait ete effecutee "
+						+ Maitre.statut.toString());
+	}
+
+	/**
+	 * @param expeditor
+	 *            : identifiant du travailleur qui a envoyé la requête. <br/>
+	 *            recevoirRequete capte le signal de disponibilité d'un
+	 *            travailleur. Il le place alors dans la pile attente. Si une
+	 *            tâche est disponible, elle est envoyée au premier élément de
+	 *            la pile. statut reçoit alors l'identifiant de ce travailleur
+	 * 
+	 * 
+	 */
+	public void recevoirRequete(final String expeditor) {
+		// Mise en attente du travailleur demandeur de tâche
+		Maitre.attente.push(expeditor);
+		System.out.println("\r\n Pile 'attente' apres la mise en attente de "
+				+ expeditor + Maitre.attente.toString() + "\r\n");
+		Integer idt = null;
+		// Récupération de la prochaine ligne libre.
+		final String ligne = Maitre.lireProchaineLigneLibre(Maitre.f);
+		// Récupération de la commande de cette ligne
+		final String tache = Maitre.getCmd(ligne);
+
+		// Si aucune tâche n'est disponible (tache = ~NoTask~), ne rien faire.
+		// Sinon
+		if (!tache.equals("~NoTask~")) {
+			// on récupère l'Id de la ligne (la chaîne située avant ##)
+			idt = new Integer(Maitre.getId(ligne));
+			// On place dans statut, à la case réprésentant la commande en cours
+			// le 1er travailleur disponible
+			Maitre.statut.put(idt, Maitre.attente.peek());
+			System.out
+					.println("\r\n 'Statut' apres l'attribution de la tache à "
+							+ Maitre.attente.peek() + Maitre.statut.toString());
+			// On envoit cette tâche à ce travailleur
+			envoyerTache(Maitre.attente.pop(), tache);
+		}
+	}
+
+	@Override
+	public Object requestTree(final String expeditor) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void shutdown(final String expeditor) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

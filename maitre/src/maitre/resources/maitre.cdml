@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<component name="maitre" type="maitre" extends="inria.communicationprotocol" ns="maitre">
+
+	<containerclass name="MaitreContainer"/>
+	<facadeclass name="MaitreFacade" userclassname="Maitre"/>
+
+	<input name="demanderTache" method="recevoirRequete">
+	</input>
+	<input name="envoyerFindeTache" method="recevoirFindeTache">
+	</input>
+
+	<output name="envoyerTache" method="envoyerTache">
+		<attribute name="cmd" javatype="java.lang.String"/>>
+	</output>
+
+</component>

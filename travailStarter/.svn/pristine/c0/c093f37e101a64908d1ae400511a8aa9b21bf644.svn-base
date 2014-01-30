@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<world repository="file:plugins/" library="file:lib/" debug="OFF">
+<connectTo id_src="ComponentsManager" type_dest="travail-starter" id_dest="travail_starter"/>
+<connectTo id_src="ComponentsManager" type_dest="components-graph" id_dest="components-graph"/>
+</world>
